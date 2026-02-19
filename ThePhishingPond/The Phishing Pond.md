@@ -17,14 +17,17 @@ Moreover I jump into the content of the email to investigate further for:
 
 ![email 1](./images/2026-02-19_13-08.png)
 > It is a legitimate email.
+
 :x: **PHISHING**
 
 ![email_2](./images/2026-02-19_13-09.png)
 > Email contains an **attachment** and the sender asks us to **enable macros**.
+
 :white_check_mark: **PHISHING**
 
 ![email_3](./images/2026-02-19_13-09_1.png)
 > The sender requests us to **enable macros** to "review the attachment".
+
 :white_check_mark: **PHISHING**
 
 ![email_4](./images/2026-02-19_13-09_2.png)
