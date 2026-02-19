@@ -53,21 +53,32 @@ an attached file and fill in with **bank** details and sensitive information. Th
 ---
 
 ![email_7](./images/2026-02-19_13-10_2.png)
-> The sender asks Peter to open a link which in theory should redirect to a payment portal. Although this is not the case, since the link uses a deceptive domain to mimic that payment
-portal.
+> The sender asks Peter to open a link which in theory should redirect to a payment portal. Although this is not the case, since the **link uses a deceptive domain** to mimic that **payment
+portal**.
+
+
+:white_check_mark: **PHISHING**
+---
+
+![email_8](./images/2026-02-19_13-11.png)
+>  Peter is blown away by the **amazing prize** he received, but he is not fooled so easily. The sender's domain is outside of the company's domain and asks for **sensitive
+personal identification** and sure enough, **banking details**.
+
+:white_check_mark: **PHISHING**
+---
+
+![email_9](./images/2026-02-19_13-11_1.png)
+> Sender **impersonates** an official bank and requires from Peter to follow a link **urgently**. In the email we also notice the **catastrophic consequences** if Peter doesn't comply
+within in the time limit **less than 24 hours**.
 
 :white_check_mark: **PHISHING**
 
 ---
 
-![email_8](./images/2026-02-19_13-11.png)
-
----
-
-![email_9](./images/2026-02-19_13-11_1.png)
-
----
-
 ![email_10](./images/2026-02-19_13-11_2.png)
+> The email domain of the sender is supicious: *@trustedvendor.co*. However, the payment links goes to a look-alike paypal url **https://paypel.trustedvendor-example.com/pay/12345**,
+but it spelled with an **e** not an **a**. Then we notice the urgency of this email **overdue**. Then if this were from paypal, it should have a pre-formatted style with the
+**company logo, contact details** and **invoice number**.
 
+:white_check_mark: **PHISHING**
 
