@@ -47,10 +47,16 @@ an attached file and fill in with **bank** details and sensitive information. Th
 ---
 
 ![email_6](./images/2026-02-19_13-10_1.png)
+> This is friendly email from an office colleague, Jane Doe. Nothing odd to be seen here.
 
+:x: **PHISHING**
 ---
 
 ![email_7](./images/2026-02-19_13-10_2.png)
+> The sender asks Peter to open a link which in theory should redirect to a payment portal. Although this is not the case, since the link uses a deceptive domain to mimic that payment
+portal.
+
+:white_check_mark: **PHISHING**
 
 ---
 
