@@ -34,7 +34,9 @@ Moreover I jump into the content of the email to investigate further for:
 ---
 
 ![email_4](./images/2026-02-19_13-09_2.png)
+> It is a legitimate email from the HR departament informing the receiver about a meeting on Thursday at 14:00.
 
+:x: **PHISHING**
 ---
 
 ![email_5](./images/2026-02-19_13-10.png)
