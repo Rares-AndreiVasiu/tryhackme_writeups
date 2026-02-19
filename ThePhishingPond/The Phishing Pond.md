@@ -40,7 +40,10 @@ Moreover I jump into the content of the email to investigate further for:
 ---
 
 ![email_5](./images/2026-02-19_13-10.png)
+> Sender's domain *(@gmail.com)* **does not match the company's domain** *@tryhackme.com*. "Emma" **impersonates** herself as a member of **HR** department and asks the receiver to open 
+an attached file and fill in with **bank** details and sensitive information. There is no sense of urgency.
 
+:white_check_mark: **PHISHING**
 ---
 
 ![email_6](./images/2026-02-19_13-10_1.png)
