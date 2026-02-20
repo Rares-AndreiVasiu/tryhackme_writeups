@@ -8,7 +8,7 @@ What term best describes the component of a web application rendered by your bro
 
 > *Front end* because that is what the user "sees" and is rendered by the browser.
 
-### HTML
+### HTML section
 
 One of the images on the cat website is broken - fix it, and the image will reveal the hidden text answer!
 
@@ -30,3 +30,22 @@ Add a dog image to the page by adding another img tag (<img>) on line 11. The do
 <img src='img/cat-2.jpg'>
 <img src='img/dog-1.png'> <!-- new entry added -->
 ```
+
+### Javascript section
+
+Click the "View Site" button on this task. On the right-hand side, add JavaScript that changes the demo element's content to "Hack the Planet"
+
+> *JSISFUN*. To get this flag I have added a new line of JS code in the marked region to change its original
+HTML content and a button appeared after viewing the site.
+
+```javascript
+document.getElementById("demo").innerHTML = "Hack the Planet";
+```
+
+Add the button HTML from this task that changes the element's text to "Button Clicked" on the editor on the right, update the code by clicking the "Render HTML+JS Code" button and then click the button.
+
+```javascript
+<button onclick='document.getElementById("demo").innerHTML = "Button Clicked";'>Click Me!</button>
+```
+
+
