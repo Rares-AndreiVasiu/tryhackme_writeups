@@ -44,8 +44,36 @@ document.getElementById("demo").innerHTML = "Hack the Planet";
 
 Add the button HTML from this task that changes the element's text to "Button Clicked" on the editor on the right, update the code by clicking the "Render HTML+JS Code" button and then click the button.
 
+> I investigated the help button from question and received a response suitable to complete this assignment.
+
 ```javascript
 <button onclick='document.getElementById("demo").innerHTML = "Button Clicked";'>Click Me!</button>
 ```
 
+### Senzitive data exposure 
 
+View the website on the link. What is the hidden password in the source code?
+
+> I tried to input some dummy password `user:admin` with `password:admin`. But it didn't work,
+and shared a link which opened the source code of the web application. In the main div of class "theme"
+I found this interesting insight *testpasswd*.
+
+```html
+<button onclick="login()" type="button" class="login">Login</button>
+                <!--
+                    TODO: Remove test credentials!
+                        Username: admin
+                        Password: testpasswd
+                -->
+```
+We may observe leftover credentials as a comment. Oh crikey the user and password work!
+
+### HTML injection
+
+> One may never trust user input. Especially a developer which needs to sanitise everything
+before usage. This leads to security issues such as HTML injection in this case. The flag
+appears after writing a HTML line for url to hacker.com *HTML_INJ3CTI0N*.
+
+```html
+ <a href="http://hacker.com">cool site</a> 
+```
