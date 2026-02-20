@@ -23,3 +23,15 @@ What will the program display if the user's input is 50?
 
 > 50 is greater than the interval generated with random numbers, so the result is: *That number is out of range. Try again.*
 
+### Iterations section
+
+What type of loop does this program use?
+
+> *while* loop until the user's input matches the target number.
+
+What will the program display if the user makes the correct guess in 3 tries?
+
+> I searched in the if-else tree and figured that the answer is in this very line: print("You got it in", tries, "tries!")
+Since the user guessed within 3 tries, the variable tries is incremented to 3 and the final output from this line on screen
+is *You got it in 3 tries!*
+
