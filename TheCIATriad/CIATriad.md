@@ -1,7 +1,7 @@
 # The CIA Triad
 > This walkthrough guides us into the CIA Triad and the *Security Mindset*
 
-# Here is how I dealt with the hands-on scenario
+## Here is how I dealt with the hands-on scenario
 
 I am given a list of nine different security incidents and I must determine which part of the CIA triad is being affected by them.
 
@@ -15,5 +15,10 @@ I am given a list of nine different security incidents and I must determine whic
 **Integrity**.
 5. The main source of information leakage is through employees, since it only take one weak link for **Confidentiality** issues.
 6. When a online resource is unavailable, it was taken down due to an attack. Should be considered as an **Availability** concern.
+7. It is a strange policy to not share your income to your colleagues, but one may consider a security risk to be *publicly* available. This implies
+**Confidentiality** risks.
+8. Logs are useful for all devs, but once they are reduced to atoms by an unathorized person this is definately an **Integrity** concern.
+9. Data leakage is without discussing a matter of **Confidentiality**.
 
+## Final puzzle
 ![image of sec incidents](./images/2026-02-20_13-23.png)
