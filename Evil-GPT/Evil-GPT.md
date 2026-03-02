@@ -2,7 +2,7 @@
 
 We are given an ip address and a port to connect: __nc 10.113.149.32 1337__
 
-## Here is how i solved this challenge.
+## Here is how I solved this challenge.
 
 - I am prompted to enter a _command request_, so I tried at first to check if the chatbot has access to the file system:
 > Enter your command request: ls
@@ -289,3 +289,27 @@ total 64__
 | drwxr-xr-x | 2 | root | root | 4096 | Feb 27 | 2022 | .vnc |
 | -rw-r--r-- | 1 | root | root | 24 | Mar 5 | 2025 | flag.txt |
 | drwxr-xr-x | 5 | root | root | 4096 | Oct 11 | 2024 | snap |
+
+- We are getting close, now i believe that the flag is within the flag.txt file, let's find out
+  > Enter your command request: read file flag.txt from /root 
+
+__Generated Command: cat file.txt | head -n 10
+Execute? (y/N): N
+Command execution cancelled.__
+
+- A bit unfortunate, but let us try again with an improved prompt:
+> Enter your command request: read file /root/flag.txt
+
+__Generated Command: cat flag.txt | xargs -n1 cut -d: -f1 | cut -d: -f2-4 | tr '\n' ' ' | cut -c 5-
+Execute? (y/N): N
+Command execution cancelled__
+
+- One last attempt, we might be lucky the 3rd time:
+>Enter your command request: read the flag.txt from /root directory
+
+__Generated Command: cat /root/flag.txt
+Execute? (y/N): y
+Command Output:
+THM{}__
+
+## I have found the flag.
