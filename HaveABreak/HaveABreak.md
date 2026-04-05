@@ -50,3 +50,14 @@ google maps and searched for orlen  petrol stations. Luckily there was only one 
 ![Orlen Hulin](./orlen.png)
 
 - Then i copied the address from google maps.
+
+## 3. At what time did the suspicious action take place in the route planning system on March 25th, 2026?
+
+- We check the .csv file `access_log.csv` and look at the timestamps on 25th of March.
+- We notice the following odd action of *Export* from user BR-0291 of a sensitive route pdf file
+- All other actions performed by other users was of type view/edit.
+- User **BR-0291** took this action at 22, which is another red flag in our pursuit. Who exports a routing file at that time in night?
+- So this user planned ahead of time his criminal actions, because at the head of the csv file he failed to authenticate on the 24th of March.
+- Then, on the 27th maybe an admin restricted access to this file.
+
+*22:14:09*
