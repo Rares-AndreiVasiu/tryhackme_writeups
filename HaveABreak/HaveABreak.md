@@ -86,5 +86,7 @@ I desired. (https://epieos.com/)
 ![Epieos lookup](./epieos.png)
 
 - I opened the google maps link, and I found the following:
-- 
-Radovan Blšťák
+
+![Culprit's name](./radovan.png)
+
+- And voila, there he is: Radovan Blšťák
