@@ -62,6 +62,13 @@ google maps and searched for orlen  petrol stations. Luckily there was only one 
 
 *22:14:09*
 
+## 4. What is the employee ID of the person who sent the anonymous email?
+
+- BR-0312 was in the system at 23:41 on March 25, just after BR-0291's suspicious EXPORT at 22:14
+- BR-0312 is a Dispatch Operator in the employees.csv file
+- BR-0312 was also active very late on 24th of March at23:12, suggesting they regularly work late shifts and would notice after-hours anomalies.
+- there is also the sense of untrust in the internal system, so as a non it person he went straight to the local press: _I do not know who to trust inside the company right now._
+  
 ## 5. What is the employee ID of the employee responsible for leaking the shipment details?
 
 From the 3rd question in our investigation the culprit is BR-0291
