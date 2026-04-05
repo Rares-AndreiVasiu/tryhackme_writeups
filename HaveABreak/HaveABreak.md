@@ -33,7 +33,6 @@ Received: from [193.32.249.132] ([193.32.249.132])
 - Mullvad hosts many of its owned servers through 31173 Services
 - The `193.32.249.0/24` subnet is part of Mullvad's server infrastructure in Amsterdam
  
->  [Mullvad — About our servers](https://mullvad.net/en/help/server-list)   
 >  [bgp.tools — AS39351](https://bgp.tools/as/39351)  
 >  [Scamalytics — 31173 Services AB](https://scamalytics.com/ip/isp/31173-services-ab)
 
