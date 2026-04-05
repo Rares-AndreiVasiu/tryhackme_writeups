@@ -72,3 +72,17 @@ google maps and searched for orlen  petrol stations. Luckily there was only one 
 ## 5. What is the employee ID of the employee responsible for leaking the shipment details?
 
 From the 3rd question in our investigation the culprit is BR-0291
+
+## 6.  What is the full name of the culprit?
+
+- Since we have already looked through all the files, there are no full names. Therefore, we have to search for more data on the email we have
+gathered from comms_export.txt where this email _kraliknovak09@gmail.com_ was found trying to access files in the route.
+
+- I tried multiple websites such as TruePeopleSearch, or BeenVerified but no luck since all required an initial payment and I pay no money to nobody.
+- I searched for more sites which could scrape the web for more data and i found this amazing one called: *Epieos*. It is free and it gave me the results
+I desired. (https://epieos.com/)
+- I input the email fromo the `comms_export.txt` and I waited for the result:
+  
+
+
+Radovan Blšťák
