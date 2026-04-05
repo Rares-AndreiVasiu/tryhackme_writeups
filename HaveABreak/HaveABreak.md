@@ -82,7 +82,9 @@ gathered from comms_export.txt where this email _kraliknovak09@gmail.com_ was fo
 - I searched for more sites which could scrape the web for more data and i found this amazing one called: *Epieos*. It is free and it gave me the results
 I desired. (https://epieos.com/)
 - I input the email fromo the `comms_export.txt` and I waited for the result:
-  
 
+![Epieos lookup](./epieos.png)
 
+- I opened the google maps link, and I found the following:
+- 
 Radovan Blšťák
