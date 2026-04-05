@@ -1,6 +1,8 @@
-# Personal solution
+# Have a Break
 
-## 1. Which VPN service was used to send the anonymous email from the .eml file?
+## Personal solution
+
+### 1. Which VPN service was used to send the anonymous email from the .eml file?
 - Opening `exhibit_a.eml` and reading the full header chain, the email was sent from `notmyname2847@gmail.com` to `redakce@novinybrno.cz` (a Czech news outlet).
  
 - The critical header is the SMTP handshake line recorded by Gmail's servers:
@@ -36,7 +38,7 @@ Received: from [193.32.249.132] ([193.32.249.132])
 >  [bgp.tools — AS39351](https://bgp.tools/as/39351)  
 >  [Scamalytics — 31173 Services AB](https://scamalytics.com/ip/isp/31173-services-ab)
 
-## 2. What is the full street address of the petrol station where the missing vehicle was last seen?
+### 2. What is the full street address of the petrol station where the missing vehicle was last seen?
 
 -At first I searched for the orlean website to find out about official petrol stations (https://www.orlen.cz/stanice), because on google maps there might be some of them missing. So i filtered them based on LPG, as confirmed through the picture. 
 
@@ -51,7 +53,7 @@ google maps and searched for orlen  petrol stations. Luckily there was only one 
 
 - Then i copied the address from google maps.
 
-## 3. At what time did the suspicious action take place in the route planning system on March 25th, 2026?
+### 3. At what time did the suspicious action take place in the route planning system on March 25th, 2026?
 
 - We check the .csv file `access_log.csv` and look at the timestamps on 25th of March.
 - We notice the following odd action of *Export* from user BR-0291 of a sensitive route pdf file
@@ -62,18 +64,18 @@ google maps and searched for orlen  petrol stations. Luckily there was only one 
 
 *22:14:09*
 
-## 4. What is the employee ID of the person who sent the anonymous email?
+### 4. What is the employee ID of the person who sent the anonymous email?
 
 - BR-0312 was in the system at 23:41 on March 25, just after BR-0291's suspicious EXPORT at 22:14
 - BR-0312 is a Dispatch Operator in the employees.csv file
 - BR-0312 was also active very late on 24th of March at23:12, suggesting they regularly work late shifts and would notice after-hours anomalies.
 - there is also the sense of untrust in the internal system, so as a non it person he went straight to the local press: _I do not know who to trust inside the company right now._
   
-## 5. What is the employee ID of the employee responsible for leaking the shipment details?
+### 5. What is the employee ID of the employee responsible for leaking the shipment details?
 
 From the 3rd question in our investigation the culprit is BR-0291
 
-## 6.  What is the full name of the culprit?
+### 6.  What is the full name of the culprit?
 
 - Since we have already looked through all the files, there are no full names. Therefore, we have to search for more data on the email we have
 gathered from comms_export.txt where this email _kraliknovak09@gmail.com_ was found trying to access files in the route.
